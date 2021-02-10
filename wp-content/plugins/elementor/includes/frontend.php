@@ -580,6 +580,8 @@ class Frontend extends App {
 
 		wp_enqueue_script( 'elementor-frontend' );
 
+		wp_set_script_translations( 'elementor-frontend', 'elementor' );
+
 		if ( ! $this->is_improved_assets_loading() ) {
 			wp_enqueue_script(
 				'preloaded-elements-handlers',
@@ -1171,20 +1173,8 @@ class Frontend extends App {
 				'isScriptDebug' => Utils::is_script_debug(),
 				'isImprovedAssetsLoading' => $this->is_improved_assets_loading(),
 			],
-			'i18n' => [
-				'shareOnFacebook' => __( 'Share on Facebook', 'elementor' ),
-				'shareOnTwitter' => __( 'Share on Twitter', 'elementor' ),
-				'pinIt' => __( 'Pin it', 'elementor' ),
-				'download' => __( 'Download', 'elementor' ),
-				'downloadImage' => __( 'Download image', 'elementor' ),
-				'fullscreen' => __( 'Fullscreen', 'elementor' ),
-				'zoom' => __( 'Zoom', 'elementor' ),
-				'share' => __( 'Share', 'elementor' ),
-				'playVideo' => __( 'Play Video', 'elementor' ),
-				'previous' => __( 'Previous', 'elementor' ),
-				'next' => __( 'Next', 'elementor' ),
-				'close' => __( 'Close', 'elementor' ),
-			],
+			// Empty array for BC to avoid errors.
+			'i18n' => [],
 			'is_rtl' => is_rtl(),
 			'breakpoints' => Responsive::get_breakpoints(),
 			'version' => ELEMENTOR_VERSION,

@@ -1,0 +1,80 @@
+2021-02-10T13:01:33+00:00 CRITICAL Uncaught Error: Call to undefined function et_builder_bfb_enabled() in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php:913
+Stack trace:
+#0 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\class-wp-hook.php(289): Dsm_Supreme_Modules_For_Divi->dsm_theme_builder_header_css_classes(Array)
+#1 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(836): apply_filters('body_class', Array, Array)
+#3 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(595): get_body_class(Array)
+#4 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\themes\storefront\header.php(21): body_class()
+#5 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(676): load_template('C:\ in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php on line 913
+
+2021-02-10T13:01:38+00:00 CRITICAL Uncaught Error: Call to undefined function et_builder_bfb_enabled() in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php:913
+Stack trace:
+#0 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\class-wp-hook.php(289): Dsm_Supreme_Modules_For_Divi->dsm_theme_builder_header_css_classes(Array)
+#1 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(836): apply_filters('body_class', Array, Array)
+#3 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(595): get_body_class(Array)
+#4 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\themes\storefront\header.php(21): body_class()
+#5 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(676): load_template('C:\ in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php on line 913
+
+2021-02-10T13:01:50+00:00 CRITICAL Uncaught Error: Call to undefined function et_builder_bfb_enabled() in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php:913
+Stack trace:
+#0 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\class-wp-hook.php(289): Dsm_Supreme_Modules_For_Divi->dsm_theme_builder_header_css_classes(Array)
+#1 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(836): apply_filters('body_class', Array, Array)
+#3 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(595): get_body_class(Array)
+#4 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\themes\storefront\header.php(21): body_class()
+#5 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(676): load_template('C:\ in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php on line 913
+
+2021-02-10T13:39:54+00:00 CRITICAL Uncaught Error: Call to undefined function et_builder_bfb_enabled() in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php:913
+Stack trace:
+#0 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\class-wp-hook.php(289): Dsm_Supreme_Modules_For_Divi->dsm_theme_builder_header_css_classes(Array)
+#1 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(836): apply_filters('body_class', Array, Array)
+#3 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(595): get_body_class(Array)
+#4 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\elementor\modules\page-templates\templates\canvas.php(24): body_class()
+#5 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-blog-header in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php on line 913
+
+2021-02-10T13:39:59+00:00 CRITICAL Uncaught Error: Call to undefined function et_builder_bfb_enabled() in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php:913
+Stack trace:
+#0 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\class-wp-hook.php(289): Dsm_Supreme_Modules_For_Divi->dsm_theme_builder_header_css_classes(Array)
+#1 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(836): apply_filters('body_class', Array, Array)
+#3 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(595): get_body_class(Array)
+#4 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\elementor\modules\page-templates\templates\canvas.php(24): body_class()
+#5 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-blog-header in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php on line 913
+
+2021-02-10T13:40:09+00:00 CRITICAL Uncaught Error: Call to undefined function et_builder_bfb_enabled() in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php:913
+Stack trace:
+#0 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\class-wp-hook.php(289): Dsm_Supreme_Modules_For_Divi->dsm_theme_builder_header_css_classes(Array)
+#1 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(836): apply_filters('body_class', Array, Array)
+#3 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(595): get_body_class(Array)
+#4 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\elementor\modules\page-templates\templates\canvas.php(24): body_class()
+#5 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-blog-header in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php on line 913
+
+2021-02-10T13:42:58+00:00 CRITICAL Uncaught Error: Call to undefined function et_builder_bfb_enabled() in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php:913
+Stack trace:
+#0 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\class-wp-hook.php(289): Dsm_Supreme_Modules_For_Divi->dsm_theme_builder_header_css_classes(Array)
+#1 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(836): apply_filters('body_class', Array, Array)
+#3 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(595): get_body_class(Array)
+#4 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\themes\storefront\header.php(21): body_class()
+#5 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(676): load_template('C:\ in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php on line 913
+
+2021-02-10T13:44:54+00:00 CRITICAL Uncaught Error: Call to undefined function et_builder_bfb_enabled() in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php:913
+Stack trace:
+#0 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\class-wp-hook.php(289): Dsm_Supreme_Modules_For_Divi->dsm_theme_builder_header_css_classes(Array)
+#1 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(836): apply_filters('body_class', Array, Array)
+#3 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\post-template.php(595): get_body_class(Array)
+#4 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\themes\storefront\header.php(21): body_class()
+#5 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-includes\template.php(676): load_template('C:\ in C:\xampp\htdocs\CamelDev\portfolio-icegag\wp-content\plugins\supreme-modules-for-divi\includes\class-dsm-supreme-modules-for-divi.php on line 913
+
